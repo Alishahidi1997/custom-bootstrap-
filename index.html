@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="./styles/global/custom.css">
+    <link rel="stylesheet" href="dist/bundle.css">
 </head>
 <body>
-<h1>sdhfkhsdkhfdskhdksjhkdhkdfhk</h1>
+
+
+<ul id="test">
+</ul>
+<div id="form" class="header">
+    <h3 class="addtolist">Add to list</h3>
+    <input type="text" id="title" class="input" placeholder="Title..." maxlength="40" onkeypress="">
+
+    <textarea  id="desc" placeholder="Your description"></textarea>
+    <p>Insert in : </p>
+    <select id="order">
+        <option>1</option>
+    </select>
+    <button onclick="add()" >Add</button>
+</div>
+
+
+<script src="./dist/script.js"></script>
+
+<script src="./app.js"></script>
 </body>
 </html>
